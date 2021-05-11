@@ -1,0 +1,124 @@
+.small-product .thumbnail-item {
+    display: block;
+    width: 100%;
+}
+.small-product .thumbnail-item .small-img {
+    display: block;
+    width: 100%;
+}
+.product-img-wrap .product-img-room img {
+    display: block;
+    width: 100%;
+}
+.product-img-wrap .product-img-room {
+    position: relative;
+}
+/* len lec sang trai */
+.product-img-wrap {
+    position: relative;
+    overflow: hidden;
+}
+.product-img-wrap:hover {
+    overflow: visible;
+}
+.product-img-wrap:hover .img-zoom-lens {
+    visibility: visible;
+
+}
+
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+}
+
+.img-zoom-result {
+    border: 4px solid #7e7b7b;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 12px;
+    right: -412px;
+    z-index: 20;
+}
+
+/* -------------------------------------------------------product-content bên COl-4 */
+.product-content h2 {
+    font-weight: 600;
+    margin: 0;
+}
+.product-content p {
+    margin: 0 0 9px 0;
+}
+.product-content .product-price {
+    height: 40px;
+    border-top: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    line-height: 40px;
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+}
+.product-content .product-describe {
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid #b1b1b1;
+}
+.product-content .product-describe p {
+    font-weight: 600;
+}
+.product-content .product-describe ul li {
+    margin-bottom: 0.25em;
+}
+
+.product-content .product-color .product-color-bgr {
+    width: 90px;
+    height: 40px;
+    /* background-color: aqua; */
+}
+.product-content .product-color .product-color-bgr {
+    position: relative;
+    border: 1px solid black;
+}
+.product-content .product-color .product-color-bgr .bgr-img {
+    width: 50%;
+    height: 35px;
+    background-image: url(./ImgDanne/prd10.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.product-content .product-color .product-color-bgr .bgr-img span {
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    right: 13px;
+    bottom: 5px;
+}
+.product-content .product-color .product-color-bgr .bgr-img img {
+    position: absolute;
+    right: -0.5px;
+    bottom: 0;
+}
+.product-material {
+    margin: 10px 0 0 0;
+}
+.product-material .material {
+    position: relative;
+    width: 90px;
+    height: 40px;
+    border: 1px solid;
+}
+.product-material .material span {
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    right: 13px;
+    bottom: 5px;
+}
+.product-material .material img {
+    position: absolute;
+    right: -0.5px;
+    bottom: 0;
+}
